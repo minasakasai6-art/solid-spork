@@ -8,9 +8,7 @@ body {
 
 header {
   background-color: white;
-  color: #222;
-  text-align: left;
-  padding: 40px 20px 40px 80px;
+  border-bottom: 1px solid #ddd;
 }
 
 .nav {
@@ -22,27 +20,35 @@ header {
   padding: 20px 40px;
 }
 
-.nav h1 {
+.logo {
   margin: 0;
   font-size: 24px;
+  color: #222;
 }
 
-.nav ul {
+.nav-links {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 25px;
   margin: 0;
   padding: 0;
 }
 
-.nav a {
+.nav-links a {
   text-decoration: none;
   color: #222;
-  font-weight: bold;
+  font-weight: 500;
 }
 
-.nav a:hover {
+.nav-links a:hover {
   color: #007bff;
+}
+
+.tagline {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 40px 20px;
+  color: #555;
 }
 
 .tagline {
