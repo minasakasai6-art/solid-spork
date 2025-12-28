@@ -103,3 +103,23 @@ body {
 .art-item:hover .art-info {
   transform: translateY(0);
 }
+
+
+.art-detail {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.art-detail img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+.art-detail img {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+  background: #fff;
+}
+
