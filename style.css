@@ -50,12 +50,12 @@ body {
   display: block;          /* vertical links */
   padding: 5px 0;
   text-decoration: none;
-  color: #e7e7e7;
+  color: #949191;
   font-weight: 500;
 }
 
 .nav-links a:hover {
-  color: #007bff;
+  color: #D9D4D4;
 }
 
 /* Main Content */
